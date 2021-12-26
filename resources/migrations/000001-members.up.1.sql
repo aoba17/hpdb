@@ -2,7 +2,7 @@ CREATE TYPE blood_types AS ENUM ('A', 'B', 'AB', 'O');
 
 CREATE TABLE members
   (
-    id serial PRIMARY KEY,
+    member_id serial PRIMARY KEY,
     stage_name varchar(30) NOT NULL,
     stage_name_alphabet varchar(30) NOT NULL,
     stage_name_katakana varchar(30) NOT NULL,

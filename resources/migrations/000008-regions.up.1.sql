@@ -1,6 +1,6 @@
 CREATE TABLE regions
   (
-    id serial PRIMARY KEY,
+    region_id serial PRIMARY KEY,
     name varchar(30) NOT NULL,
     name_alphabet varchar(30) NOT NULL,
     coodinates point NOT NULL,

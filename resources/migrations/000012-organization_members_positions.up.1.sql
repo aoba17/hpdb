@@ -1,6 +1,6 @@
 CREATE TABLE organization_members_positions
   (
-    id serial PRIMARY KEY,
+    organization_member_position_id serial PRIMARY KEY,
     organization_member_id integer REFERENCES organizations_members (id),
     position_id integer REFERENCES positions (id),
     started_on date NOT NULL,

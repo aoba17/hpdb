@@ -1,6 +1,6 @@
 CREATE TABLE organization_members_colors
   (
-    id serial PRIMARY KEY,
+    organization_member_color_id serial PRIMARY KEY,
     organization_member_id integer REFERENCES organizations_members (id),
     color_id integer REFERENCES colors (id),
     started_on date NOT NULL,

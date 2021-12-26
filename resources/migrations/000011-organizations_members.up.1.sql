@@ -1,6 +1,6 @@
 CREATE TABLE organizations_members
   (
-    id serial PRIMARY KEY,
+    organization_member_id serial PRIMARY KEY,
     organization_id integer REFERENCES organizations (id),
     member_id integer REFERENCES members (id),
     generation integer NOT NULL,
