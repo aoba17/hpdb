@@ -1,4 +1,4 @@
-CREATE TABLE organization_durations
+CREATE TABLE organizations_durations
   (
     organization_duration_id serial PRIMARY KEY,
     started_on date NOT NULL,
