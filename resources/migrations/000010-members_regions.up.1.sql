@@ -1,6 +1,6 @@
 CREATE TYPE hometown_types AS ENUM ('born', 'raised', 'born-raised');
 
-CREATE TABLE member_regions
+CREATE TABLE members_regions
   (
     member_region_id serial PRIMARY KEY,
     member_id integer REFERENCES members (member_id),
