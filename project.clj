@@ -7,5 +7,6 @@
                  [dev.weavejester/ragtime "0.9.0"]
                  [org.postgresql/postgresql "42.3.1"]]
   :repl-options {:init-ns hpdb.core}
-  :aliases {"migrate"  ["run" "-m" "hpdb.core/migrate"]
-            "rollback" ["run" "-m" "hpdb.core/rollback"]})
+  :aliases {"migrate"        ["run" "-m" "hpdb.core/migrate"]
+            "migrate-rebase" ["run" "-m" "hpdb.core/migrate-rebase"]
+            "rollback"       ["run" "-m" "hpdb.core/rollback"]})
