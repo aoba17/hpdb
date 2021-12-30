@@ -1,1 +1,1 @@
-DROP TABLE organization_durations;
+DROP TABLE organizations_durations;
