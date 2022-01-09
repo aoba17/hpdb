@@ -9,4 +9,8 @@
   :repl-options {:init-ns hpdb.core}
   :aliases {"migrate"        ["run" "-m" "hpdb.core/migrate"]
             "migrate-rebase" ["run" "-m" "hpdb.core/migrate-rebase"]
-            "rollback"       ["run" "-m" "hpdb.core/rollback"]})
+            "rollback"       ["run" "-m" "hpdb.core/rollback"]
+            "migrate-stg"    ["run" "-m" "hpdb.core/migrate-stg"]
+            "migrate-prod"   ["run" "-m" "hpdb.core/migrate-prod"]
+            "rollback-stg"   ["run" "-m" "hpdb.core/rollback-stg"]
+            "rollback-prod"  ["run" "-m" "hpdb.core/rollback-prod"]})
